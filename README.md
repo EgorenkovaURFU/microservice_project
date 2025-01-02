@@ -1,8 +1,8 @@
 # Microservice Project
 
-<b>Сервис №1.</b>:
+<b>Сервис №1.</b>
 
-Загружает данные о диабете по ссылке [link]https://scikit-learn.org/1.5/modules/generated/sklearn.datasets.load_diabetes.html
+Загружает [данные о диабете](https://scikit-learn.org/1.5/modules/generated/sklearn.datasets.load_diabetes.html)
 
 Каждые 10 секунд рандомный ряд из признаков отправляется в очередь на предсказание. Также отправляется таргетное значение в очередь для оценки результата. у каждого сообщения есть id.
 
